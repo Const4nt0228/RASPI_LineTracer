@@ -78,7 +78,9 @@ protocol websockets
 ![image](https://user-images.githubusercontent.com/66546156/125194337-cd710600-e28b-11eb-8cb4-f56e1676275d.png)
 
 주행화면은 살짝 편법으로 진행하였다. 
-라즈베리파이 motion web cam streaming을 사용하면 외부에서 라즈베리파이 ip를 웹 주소에 입력하면  파이카메라가 촬영하고 있는 내용을 HTML에 띄워준다. 자율주행 프로그램과 카메라 스트리밍이 동시에 돌아가야하므로 웹캠 스트리밍은 백그라운드로 작동시키고 thonny를 이용해 자율주행.py를 실행하였다.
+라즈베리파이 motion web cam streaming을 사용하면 외부에서 라즈베리파이 ip를 웹 주소에 입력하면  파이카메라가 촬영하고 있는 내용을 HTML에 띄워준다. 
+이를 응용해서 조종을 제어하는 웹페이지 부분에 해당 HTML코드를 추가해주는것 만으로 구현 완료하였다.
+자율주행 프로그램과 카메라 스트리밍이 동시에 돌아가야하므로 웹캠 스트리밍은 백그라운드로 작동시키고 thonny를 이용해 자율주행.py를 실행하였다.
 
 ![image](https://user-images.githubusercontent.com/66546156/125194399-23de4480-e28c-11eb-9473-2bc0c398df13.png)
 
